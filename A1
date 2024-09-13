@@ -1,0 +1,179 @@
+getgenv().A == true 
+spawn(function()
+while A do
+local args = {
+    [1] = {
+        [1] = {
+            [1] = "\5",
+            [2] = "skillsControl",
+            [3] = "Gear5",
+            [4] = "Z",
+            [5] = "Hold",
+            [6] = Vector3.new(19249.341796875, -85.60646057128906, 5125.037109375)
+        }
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+local args = {
+    [1] = {
+        [1] = {
+            [1] = "\5",
+            [2] = "skillsControl",
+            [3] = "Gear5",
+            [4] = "Z",
+            [5] = "Release",
+            [6] = Vector3.new(19249.341796875, -85.6041259765625, 5125.037109375)
+        }
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = {
+            [1] = "\5",
+            [2] = "skillsControl",
+            [3] = "Gear5",
+            [4] = "X",
+            [5] = "Hold",
+            [6] = Vector3.new(19249.341796875, -85.60646057128906, 5125.037109375)
+        }
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+local args = {
+    [1] = {
+        [1] = {
+            [1] = "\5",
+            [2] = "skillsControl",
+            [3] = "Gear5",
+            [4] = "X",
+            [5] = "Release",
+            [6] = Vector3.new(19249.341796875, -85.6041259765625, 5125.037109375)
+        }
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = {
+            [1] = "\5",
+            [2] = "skillsControl",
+            [3] = "Gear5",
+            [4] = "C",
+            [5] = "Hold",
+            [6] = Vector3.new(19249.341796875, -85.60646057128906, 5125.037109375)
+        }
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+local args = {
+    [1] = {
+        [1] = {
+            [1] = "\5",
+            [2] = "skillsControl",
+            [3] = "Gear5",
+            [4] = "C",
+            [5] = "Release",
+            [6] = Vector3.new(19249.341796875, -85.6041259765625, 5125.037109375)
+        }
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = {
+            [1] = "\5",
+            [2] = "skillsControl",
+            [3] = "Gear5",
+            [4] = "V",
+            [5] = "Hold",
+            [6] = Vector3.new(19249.341796875, -85.60646057128906, 5125.037109375)
+        }
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+local args = {
+    [1] = {
+        [1] = {
+            [1] = "\5",
+            [2] = "skillsControl",
+            [3] = "Gear5",
+            [4] = "V",
+            [5] = "Release",
+            [6] = Vector3.new(19249.341796875, -85.6041259765625, 5125.037109375)
+        }
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = {
+            [1] = "\5",
+            [2] = "skillsControl",
+            [3] = "Gear5",
+            [4] = "B",
+            [5] = "Hold",
+            [6] = Vector3.new(19249.341796875, -85.60646057128906, 5125.037109375)
+        }
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+local args = {
+    [1] = {
+        [1] = {
+            [1] = "\5",
+            [2] = "skillsControl",
+            [3] = "Gear5",
+            [4] = "B",
+            [5] = "Release",
+            [6] = Vector3.new(19249.341796875, -85.6041259765625, 5125.037109375)
+        }
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = {
+            [1] = "\5",
+            [2] = "skillsControl",
+            [3] = "Gear5",
+            [4] = "F",
+            [5] = "Hold",
+            [6] = Vector3.new(19249.341796875, -85.60646057128906, 5125.037109375)
+        }
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+local args = {
+    [1] = {
+        [1] = {
+            [1] = "\5",
+            [2] = "skillsControl",
+            [3] = "Gear5",
+            [4] = "F",
+            [5] = "Release",
+            [6] = Vector3.new(19249.341796875, -85.6041259765625, 5125.037109375)
+        }
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+wait(0.8)
+end
+end)
