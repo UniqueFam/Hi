@@ -1,0 +1,5 @@
+getgenv().A = true
+while A do
+game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 50
+wait(60)
+end
