@@ -1,0 +1,3 @@
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/UniqueFam/Hi/main/Speed"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/UniqueFam/UniqueFam/main/Fullbright"))()
