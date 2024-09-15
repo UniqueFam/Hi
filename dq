@@ -1,17 +1,4 @@
 getgenv().A = true
-
-spawn(function()
-while A do
-loadstring(game:HttpGet("https://raw.githubusercontent.com/UniqueFam/UniqueFam/main/Fullbright"))()
-wait(60)
-end
-end)
-spawn(function()
-while A do
-game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 50
-wait(60)
-end
-end)
 spawn(function()
 while A do
 local args = {
