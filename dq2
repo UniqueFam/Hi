@@ -179,3 +179,150 @@ game:GetService("ReplicatedStorage"):WaitForChild("dataRemoteEvent"):FireServer(
 wait()
 end
 end)
+spawn(function()
+while A do
+local args = {
+    [1] = {
+        [1] = {
+            ["animationLength"] = 0,
+            ["sentAt"] = 1726294906.352102
+        },
+        [2] = "C"
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("dataRemoteEvent"):FireServer(unpack(args))
+wait()
+end
+end)
+
+spawn(function()
+while A do
+local args = {
+    [1] = {
+        [1] = {
+            ["animationLength"] = 0,
+            ["sentAt"] = 1726294906.352102
+        },
+        [2] = "C"
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("dataRemoteEvent"):FireServer(unpack(args))
+wait()
+end
+end)
+spawn(function()
+while A do
+local args = {
+    [1] = {
+        [1] = {
+            ["animationLength"] = 0,
+            ["sentAt"] = 1726294906.352102
+        },
+        [2] = "C"
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("dataRemoteEvent"):FireServer(unpack(args))
+wait()
+end
+end)
+spawn(function()
+while A do
+local args = {
+    [1] = {
+        [1] = {
+            ["animationLength"] = 0,
+            ["sentAt"] = 1726294906.352102
+        },
+        [2] = "C"
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("dataRemoteEvent"):FireServer(unpack(args))
+wait()
+end
+end)
+
+spawn(function()
+while A do
+local args = {
+    [1] = {
+        [1] = {
+            ["animationLength"] = 0,
+            ["sentAt"] = 1726294906.352102
+        },
+        [2] = "C"
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("dataRemoteEvent"):FireServer(unpack(args))
+wait()
+end
+end)
+spawn(function()
+while A do
+local args = {
+    [1] = {
+        [1] = {
+            ["animationLength"] = 0,
+            ["sentAt"] = 1726294906.352102
+        },
+        [2] = "C"
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("dataRemoteEvent"):FireServer(unpack(args))
+wait()
+end
+end)
+spawn(function()
+while A do
+local args = {
+    [1] = {
+        [1] = {
+            ["animationLength"] = 0,
+            ["sentAt"] = 1726294906.352102
+        },
+        [2] = "C"
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("dataRemoteEvent"):FireServer(unpack(args))
+wait()
+end
+end)
+
+spawn(function()
+while A do
+local args = {
+    [1] = {
+        [1] = {
+            ["animationLength"] = 0,
+            ["sentAt"] = 1726294906.352102
+        },
+        [2] = "C"
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("dataRemoteEvent"):FireServer(unpack(args))
+wait()
+end
+end)
+spawn(function()
+while A do
+local args = {
+    [1] = {
+        [1] = {
+            ["animationLength"] = 0,
+            ["sentAt"] = 1726294906.352102
+        },
+        [2] = "C"
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("dataRemoteEvent"):FireServer(unpack(args))
+wait()
+end
+end)
