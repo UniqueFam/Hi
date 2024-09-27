@@ -1,0 +1,43 @@
+-- LocalScript (placed in StarterPlayerScripts or StarterGui)
+local UserInputService = game:GetService("UserInputService")
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+
+-- Create or reference a RemoteEvent to communicate with the server
+local sendKeybindEvent = ReplicatedStorage:WaitForChild("SendKeybindEvent")
+
+local repeatInterval = 1 -- Interval in seconds between sending the keybind action
+local isRepeating = true -- Tracks whether the keybind action is being repeated
+local keyToRepeat = Enum.KeyCode.E -- Key to start and stop repeating
+
+-- Function to continuously send the keybind action
+local function repeatKeybindAction()
+    while isRepeating do
+        -- Trigger the keybind event (simulating key press action)
+        sendKeybindEvent:FireServer("E") -- Replace "E" with any other key if needed
+        print("Keybind action sent!")
+        
+        -- Wait for the set interval before repeating
+        wait(repeatInterval)
+    end
+end
+
+-- Function to handle input (start or stop the repeated keybind)
+local function onInputBegan(input, gameProcessedEvent)
+    if gameProcessedEvent then
+        return -- Ignore if the input has already been processed
+    end
+
+    -- Start or stop the repeated action based on key press
+    if input.KeyCode == keyToRepeat then
+        isRepeating = not isRepeating
+        if isRepeating then
+            print("Starting keybind action repeat...")
+            repeatKeybindAction() -- Start the loop for repeating keybind
+        else
+            print("Stopping keybind action repeat...")
+        end
+    end
+end
+
+-- Bind the input event to start/stop the keybind repetition
+UserInputService.InputBegan:Connect(onInputBegan)
